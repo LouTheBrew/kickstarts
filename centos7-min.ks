@@ -9,7 +9,7 @@ rootpw usado1113
 skipx
 timezone US/Pacific
 user --groups=root --name=ldesiqueira --password=usado1113 --gecos="luis"
-bootloader --append"crashkernel=auto" --location=mbr --boot-drive=vda
+bootloader --append "crashkernel=auto" --location=mbr --boot-drive=vda
 autopart --type=lvm
 clearpart --all --initlabel --drives=vda
 %packages
