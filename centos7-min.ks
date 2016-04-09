@@ -17,3 +17,4 @@ clearpart --all --initlabel --drives=vda
 %end
 %addon com_redhat_kdump --enable --reserve-mb='auto'
 %end
+reboot
